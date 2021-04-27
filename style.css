@@ -1,5 +1,10 @@
 body {
     padding: 50px;
+    background-image: url("forest.jpg");
+}
+h1 {
+    font: normal 40px Arial;
+    margin-top: auto;
 }
 section {
     background-color: black;
@@ -13,6 +18,17 @@ section {
 div {
     padding: 50px;
 }
+input#button {
+    background-color: rgb(73, 73, 73);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font: normal 20px Arial ; 
+}
 input {
     padding: 10px;
+}
+footer {
+    text-align: center;
+    font: Arial;
 }
