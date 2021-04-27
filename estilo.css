@@ -1,0 +1,29 @@
+body {
+    padding: 50px;
+}
+div {
+    margin: auto;
+    background-color: black;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+img {
+    display: block;
+    margin: auto;
+    height: 180px;
+    padding: 25px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font: normal 30px Arial;
+}
+input {
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+footer {
+    text-align: center;
+}
