@@ -1,0 +1,18 @@
+body {
+    padding: 50px;
+}
+section {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 500px;
+    border-radius: 5px 5px 10px;
+    margin: auto;
+    text-align: center;
+}
+div {
+    padding: 50px;
+}
+input {
+    padding: 10px;
+}
