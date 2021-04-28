@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
     padding: 50px;
     background-image: url("forest.jpg");
@@ -5,28 +7,42 @@ body {
 h1 {
     font: normal 40px Arial;
     margin-top: auto;
+    color: black;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.178);
 }
-section {
-    background-color: black;
-    color: white;
-    width: 50%;
-    height: 500px;
+p {
+    font: normal 15px Arial;
+}
+div {
+    background-color:  rgba(0, 0, 0, 0.178);
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: 470px;
     border-radius: 5px 5px 10px;
     margin: auto;
     text-align: center;
-}
-div {
     padding: 50px;
 }
-input#button {
-    background-color: rgb(73, 73, 73);
-    width: 200px;
-    height: 50px;
+input#cadastrar {
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 70px;
+    font: normal 30px Arial;
     border-radius: 10px;
-    font: normal 20px Arial ; 
+    box-shadow: 5px 5px 10px black;
+}
+input#radio {
+    float: right;
+}
+input#caixa {
+    width: 200px;
+    font: normal 15px Arial;
 }
 input {
     padding: 10px;
+    width: 150px;
 }
 footer {
     text-align: center;

@@ -4,11 +4,11 @@ body {
 }
 div {
     margin: auto;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.178);
     width: 400px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
 }
 img {
     display: block;
@@ -17,17 +17,18 @@ img {
     padding: 10px;
 }
 h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font: normal 30px Arial;
 }
 input#entrar {
     color:hsl(0, 0%, 100%);
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(0, 0, 0);
     width: 200px;
     height: 50px;
     border-radius: 10px;
-    font: normal 20px Arial ; 
+    font: normal 20px Arial ;
+    box-shadow: 5px 5px 10px black;
 
 }
 input {
