@@ -23,14 +23,18 @@ h1 {
 }
 input#entrar {
     color:hsl(0, 0%, 100%);
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.904);
     width: 200px;
     height: 50px;
     border-radius: 10px;
     font: normal 20px Arial ;
     box-shadow: 5px 5px 10px black;
-
 }
+input#entrar:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+    transform: scale(1.2);
+}
+
 input {
     display: block;
     margin: auto;
